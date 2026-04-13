@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "linkedin-ads": {
+      "command": "node",
+      "args": ["C:/LinkedInCampaigns/dist/index.js"],
+      "env": {
+        "LINKEDIN_ACCESS_TOKEN": "AQUCJe_SKpcoRHY950-6dhPkpYkupv56_mLzesQ-LVCyOMBrm-9WUm1OG-N1xfn_Hnb3gdFLHgq13rTDODnV9cuxzFSwrBZ85eudZKv6X0zBXbq2-hPqB0vJfkKu9M4JVnd_hLoXpzhQebdUVK8ubGdGcG1JuQfbpHEr4DmmjD8XL0ouCU2gCZG6hfi38qkxqshAShfL2ZgTHUlkpY5rWdanUFHUNd6Wq3-YQ4KZnMllB83jXTHXXu3rtrGBxbIsKZsBpNdPkZqcsrsHX7Jql5EMywYzX6LJ7RV6HG7YB7t1LL681Oxj3GlU8QDG3_NUH4bQIfgG9OsXAQZaLpB7oEeD_1cTfw",
+        "LINKEDIN_AD_ACCOUNT_ID": "urn:li:sponsoredAccount:508321001"
+      }
+    }
+  }
+}

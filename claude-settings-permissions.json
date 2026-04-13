@@ -1,0 +1,41 @@
+{
+  "_comment": "Add this to your Claude Code settings (~/.claude/settings.json) or project settings (.claude/settings.json) to auto-allow all LinkedIn MCP tools without per-call prompts.",
+
+  "permissions": {
+    "allow": [
+      "mcp__linkedin-ads__list_campaign_groups",
+      "mcp__linkedin-ads__get_campaign_group",
+      "mcp__linkedin-ads__create_campaign_group",
+      "mcp__linkedin-ads__update_campaign_group",
+      "mcp__linkedin-ads__list_campaigns",
+      "mcp__linkedin-ads__get_campaign",
+      "mcp__linkedin-ads__create_campaign",
+      "mcp__linkedin-ads__update_campaign",
+      "mcp__linkedin-ads__list_saved_audiences",
+      "mcp__linkedin-ads__get_saved_audience",
+      "mcp__linkedin-ads__create_saved_audience",
+      "mcp__linkedin-ads__update_saved_audience",
+      "mcp__linkedin-ads__delete_saved_audience",
+      "mcp__linkedin-ads__bulk_geo_swap_audiences",
+      "mcp__linkedin-ads__search_targeting_entities",
+      "mcp__linkedin-ads__get_audience_size",
+      "mcp__linkedin-ads__get_geo_urns",
+      "mcp__linkedin-ads__upload_image",
+      "mcp__linkedin-ads__upload_video",
+      "mcp__linkedin-ads__list_creatives",
+      "mcp__linkedin-ads__create_ad_creative",
+      "mcp__linkedin-ads__get_creative",
+      "mcp__linkedin-ads__get_campaign_analytics",
+      "mcp__linkedin-ads__get_creative_analytics",
+      "mcp__linkedin-ads__get_account_summary",
+      "mcp__linkedin-ads__get_conversion_tracking",
+      "mcp__linkedin-ads__get_lead_form_responses",
+      "mcp__linkedin-ads__run_full_audit",
+      "mcp__linkedin-ads__check_single_audit",
+      "mcp__linkedin-ads__bulk_create_campaign_groups",
+      "mcp__linkedin-ads__bulk_create_campaigns",
+      "mcp__linkedin-ads__bulk_update_campaigns",
+      "mcp__linkedin-ads__get_queue_status"
+    ]
+  }
+}
