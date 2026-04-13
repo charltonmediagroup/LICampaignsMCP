@@ -14,17 +14,30 @@ npm run build
 - `LINKEDIN_AD_ACCOUNT_ID` — Default ad account (format: `urn:li:sponsoredAccount:XXXXXXXXX`)
 
 ## Teammate Setup Prompt
-Clone and paste this into Claude Code (replace credentials with your own):
+Copy the prompt below into Claude Code (replace the two credential placeholders with your own):
 
 ```
-Clone the LinkedIn Ads MCP server from https://github.com/charltonmediagroup/LICampaignsMCP, install dependencies, build it, and configure it as an MCP server in my Claude Code settings (~/.claude/settings.json).
+I need to set up the LinkedIn Ads MCP server for Claude Code. Walk me through everything step by step.
+
+1. Clone https://github.com/charltonmediagroup/LICampaignsMCP to my home directory
+2. Read the CLAUDE.md in the repo for full instructions
+3. Run npm install and npm run build
+4. Add the MCP server to my ~/.claude/settings.json — merge it with any existing config, don't overwrite. Use the full absolute path to dist/index.js
+5. Read claude-settings-permissions.json in the repo and add all those permissions to my settings.json
 
 My credentials:
 - LINKEDIN_ACCESS_TOKEN: <paste-token-here>
 - LINKEDIN_AD_ACCOUNT_ID: urn:li:sponsoredAccount:<paste-account-id-here>
 
-Also add permissions to auto-allow all mcp__linkedin-ads__* tools. Remind me to restart Claude Code when done.
+If anything fails (missing Node.js, build errors, etc.), log the issue to ISSUES.md as described in CLAUDE.md and help me fix it.
+
+Remind me to restart Claude Code when done.
 ```
+
+### Prerequisites
+- Node.js (v18+) and npm installed
+- A LinkedIn OAuth2 access token with Marketing API scopes
+- Your default ad account ID (ask your team lead if unsure)
 
 ## Reporting Issues
 When a user reports a bug, setup problem, or unexpected behavior, **automatically** append it to `ISSUES.md` in the root of this project. Do not ask the user to log it themselves. Use this format:
