@@ -6,6 +6,7 @@
  * Best-practice enforcement is applied automatically on every write operation.
  */
 
+import "dotenv/config";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { createLinkedInClient } from "./linkedin/client.js";
