@@ -35,7 +35,13 @@
       "mcp__linkedin-ads__bulk_create_campaign_groups",
       "mcp__linkedin-ads__bulk_create_campaigns",
       "mcp__linkedin-ads__bulk_update_campaigns",
-      "mcp__linkedin-ads__get_queue_status"
+      "mcp__linkedin-ads__get_queue_status",
+      "mcp__linkedin-ads__benchmark_campaign_performance",
+      "mcp__linkedin-ads__list_industry_benchmarks",
+      "mcp__linkedin-ads__get_company_engagement",
+      "mcp__linkedin-ads__get_company_engagement_by_campaign",
+      "mcp__linkedin-ads__get_optimization_recommendations",
+      "mcp__linkedin-ads__get_quick_wins"
     ]
   }
 }

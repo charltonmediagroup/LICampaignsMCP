@@ -16,6 +16,9 @@ import { registerCreativeTools } from "./tools/creatives.js";
 import { registerAnalyticsTools } from "./tools/analytics.js";
 import { registerAuditTools } from "./tools/audit.js";
 import { registerBulkTools } from "./tools/bulk.js";
+import { registerBenchmarkTools } from "./tools/benchmarks.js";
+import { registerEngagementTools } from "./tools/engagement.js";
+import { registerOptimizationTools } from "./tools/optimize.js";
 
 // ─── Environment ────────────────────────────────────────────────────
 
@@ -107,6 +110,9 @@ const toolGroups = {
   ...registerAnalyticsTools(linkedIn),
   ...registerAuditTools(linkedIn),
   ...registerBulkTools(linkedIn),
+  ...registerBenchmarkTools(linkedIn),
+  ...registerEngagementTools(linkedIn),
+  ...registerOptimizationTools(linkedIn),
 };
 
 // Wire each tool into the MCP server
